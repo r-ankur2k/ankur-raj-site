@@ -1,0 +1,72 @@
+body{
+    font-size: 10px;
+    color: rgb(55, 124, 124);
+    background-color: rgb(16, 75, 75);
+    
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    padding: 0px;
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+}
+span{
+    color: blue;
+}
+h2{
+    margin-left: 40px;
+    margin: 20px;
+    color: red;
+}
+#container-home{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 180px;
+    width: 500px;
+    height: auto;
+    background-color: aquamarine;
+    border: 10px solid rgb(140, 127, 154);
+
+}
+h4{
+    text-align: center;
+}
+#personal-info{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    /* border: 2px solid red; */
+}
+p{
+    margin: auto 20px;
+    font-size: 16px;
+    color: rgb(109, 73, 142);
+    text-shadow: 0px 0px  black ;
+    line-height: 23px;
+}
+h1{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+h4{
+    margin-top: 7px;
+    font-size: 17px;
+}
+nav{
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: bolder;
+}

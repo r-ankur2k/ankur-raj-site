@@ -34,16 +34,18 @@ h2{
     padding: 20px;
     margin: auto;
     margin-top: 180px;
-    width: 500px;
-    height: auto;
+    width: 700px;
+    height: 300px;
     background-color: aquamarine;
     border: 10px solid rgb(140, 127, 154);
 
 }
 h4{
     text-align: center;
+    margin-top: 0px;
 }
 #personal-info{
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     height: 200px;

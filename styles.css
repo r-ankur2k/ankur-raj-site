@@ -74,10 +74,11 @@ h4{
 }
 nav{
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
+    padding: 0px;
     width: 750px;
-    height: 30px;
+    height: 40px;
+    line-height: 40px;
     list-style-type: none;
     font-size: 13px;
     margin: auto;

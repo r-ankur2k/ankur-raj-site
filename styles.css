@@ -1,50 +1,57 @@
 body{
     font-size: 10px;
-    color: rgb(55, 124, 124);
+    color: black;
     background-color: rgb(16, 75, 75);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 #intro{
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     justify-content: space-around;
     height: 50px;
 
 }
 a{
     text-decoration: none;
+    color: rgb(21, 170, 21);
+}
+li{
+    list-style: none;
+    text-align: start;
+    font-size: 17px;
+    margin-left: 70px;
 }
 img{
     width: 170px;
     height: 170px;
-    
     border: 2px solid rebeccapurple;
     border-radius: 20px;
 }
 span{
-    color: blue;
+    color: rgb(224, 33, 33);
 }
 h2{
+    color: rgb(92, 19, 160);
     margin-left: 40px;
     margin: 20px;
-    color: red;
+    font-size: 15px;
 }
 #container-home{
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     margin: auto;
     width: 700px;
     height: 300px;
-    background-color: aquamarine;
+    background-color: white;
     border: 2px solid rgb(0, 0, 0);
-
 }
 h4{
     text-align: center;
     margin-top: 0px;
 }
 #personal-info{
-    margin-top: 40px;
+    margin-top: 35px;
     display: flex;
     justify-content: space-around;
     height: 200px;
@@ -52,13 +59,13 @@ h4{
 }
 p{
     margin: auto 20px;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(109, 73, 142);
     text-shadow: 0px 0px  black ;
     line-height: 23px;
 }
 h1{
-    margin-left: 20px;
+    margin-left: 2px;
     margin-top: 0px;
 }
 h4{
@@ -66,8 +73,65 @@ h4{
     font-size: 17px;
 }
 nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 750px;
+    height: 30px;
     list-style-type: none;
-    margin-right: 20px;
     font-size: 13px;
+    margin: auto;
     font-weight: bolder;
+    background-color: white;
+}
+#about{
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+}
+#education{
+    color: brown;
+    text-align: start;
+}
+#projects{
+    display: block;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    margin-left: -27px;
+    margin-top: -10px;
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    line-height: 50px;
+    
+}
+#cerifications{
+    display: block;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    margin-left: -27px;
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    line-height: 50px;
+}
+#skills{
+    display: block;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    margin-left: -27px;
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    line-height: 30px;
 }

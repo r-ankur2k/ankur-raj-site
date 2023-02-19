@@ -84,6 +84,7 @@ nav{
     margin: auto;
     font-weight: bolder;
     background-color: white;
+    border: 2px solid rgb(0, 0, 0);
 }
 #about{
     text-align: center;

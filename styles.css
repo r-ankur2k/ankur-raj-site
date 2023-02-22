@@ -96,4 +96,5 @@ span{
 a{
     text-decoration: none;
     color:blue;
+    text-shadow: 10px black;
 }

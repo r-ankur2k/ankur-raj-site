@@ -1,140 +1,99 @@
 body{
-    font-size: 10px;
-    color: black;
-    background-color: rgb(16, 75, 75);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    text-shadow: 9px white;
+}
+div{
+    padding-top: 1px;
+    margin-top: 3px;
+}
+nav{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-image:linear-gradient(to right, #77A1D3, #79CBCA, #E684AE) ;
+    border-radius: 5px;
+}
+#container-home{
+    display: block;
+    padding: 10px;
+    background-image:linear-gradient(to right,  #E684AE, #79CBCA ,#77A1D3) ;
+    border-radius: 5px;
 }
 #intro{
     display: flex;
-    margin-top: 15px;
     justify-content: space-around;
-    height: 50px;
-
 }
-a{
-    text-decoration: none;
-    color: rgb(21, 170, 21);
+h4{
+    text-align: center;
 }
-li{
-    list-style: none;
-    text-align: start;
-    font-size: 17px;
-    margin-left: 70px;
+#personal-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
 }
 img{
     width: 170px;
-    height: 170px;
-    border: 2px solid rebeccapurple;
-    border-radius: 20px;
+    border-radius: 30px;
 }
-span{
-    color: rgb(224, 33, 33);
-}
-h2{
-    color: rgb(92, 19, 160);
-    margin-left: 40px;
-    margin: 20px;
-    font-size: 15px;
-}
-#container-home{
-    text-align: center;
-    padding: 25px;
-    margin: auto;
-    width: 700px;
-    height: 300px;
-    background-color: white;
-    border: 2px solid rgb(0, 0, 0);
-}
-h4{
-    text-align: center;
-    margin-top: 0px;
-}
-#personal-info{
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-around;
-    height: 200px;
-    /* border: 2px solid red; */
-}
-p{
-    margin: auto 20px;
-    font-size: 18px;
-    color: rgb(109, 73, 142);
-    text-shadow: 0px 0px  black ;
-    line-height: 23px;
-}
-h1{
-    margin-left: 2px;
-    margin-top: 0px;
-}
-h4{
-    margin-top: 7px;
-    font-size: 17px;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    width: 750px;
-    height: 40px;
-    line-height: 40px;
-    list-style-type: none;
-    font-size: 13px;
-    margin: auto;
-    font-weight: bolder;
-    background-color: white;
-    border: 2px solid rgb(0, 0, 0);
+#container-about{
+    height: 380px;
+    background-image:linear-gradient(to right, #77A1D3, #79CBCA, #E684AE) ;
+    border-radius: 5px;
 }
 #about{
     text-align: center;
-    padding: 25px;
-    margin: auto;
-    width: 700px;
-    height: 300px;
-    background-color: white;
-    border: 2px solid rgb(0, 0, 0);
+    line-height: 40px;
 }
 #education{
-    color: brown;
-    text-align: start;
-}
-#projects{
-    display: block;
     text-align: center;
-    padding: 25px;
-    margin: 10px;
-    margin-left: -27px;
-    margin-top: -11px;
-    width: 700px;
-    height: 300px;
-    background-color: white;
-    border: 2px solid rgb(0, 0, 0);
-    line-height: 50px;
-    
 }
-#cerifications{
-    display: block;
+h1{
+    font-size: 20px;
+    color: black;
+    text-shadow: 10px black;
+}
+h2{
+    font-size: 20px;
+    color: #7c4f33;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#certifications{
     text-align: center;
-    padding: 25px;
-    margin: 10px;
-    margin-left: -27px;
-    width: 700px;
-    height: 300px;
-    background-color: white;
-    border: 2px solid rgb(0, 0, 0);
     line-height: 50px;
+    background-image:linear-gradient(to right, #E684AE ,#79CBCA, #77A1D3) ;
+    border-radius: 5px;
 }
 #skills{
-    display: block;
     text-align: center;
-    padding: 25px;
-    margin: 10px;
-    margin-top: -11px;
-    margin-left: -27px;
-    width: 700px;
-    height: 300px;
-    background-color: white;
-    border: 2px solid rgb(0, 0, 0);
     line-height: 30px;
+    height: 320px;
+    background-image:linear-gradient(to right, #77A1D3, #79CBCA, #E684AE) ;
+    border-radius: 5px;
+}
+#projects{
+    text-align: center;
+    height: 300px;
+    line-height: 40px;
+    background-image:linear-gradient(to right, #E684AE, #79CBCA ,#77A1D3) ;
+    border-radius: 5px;
+}
+#contact{
+    text-align: center;
+    line-height: 30px;
+    height: 200px;
+    background-image:linear-gradient(to right,  #E684AE ,#79CBCA, #77A1D3) ;
+    border-radius: 5px;
+}
+span{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color:blue;
 }

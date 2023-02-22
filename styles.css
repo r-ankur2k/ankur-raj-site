@@ -12,13 +12,18 @@ nav{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    position:fixed;
+    top:0;
+    width: 100%;
     padding: 10px;
-    background-image:linear-gradient(to right, #77A1D3, #79CBCA, #853d5c) ;
+    background-color: rgb(124, 207, 116);
     border-radius: 5px;
+    margin-left: 0px;
 }
 #container-home{
     display: block;
     padding: 10px;
+    margin-top: 32px;
     background-image:linear-gradient(to right,  #853d5c, #79CBCA ,#77A1D3) ;
     border-radius: 5px;
 }

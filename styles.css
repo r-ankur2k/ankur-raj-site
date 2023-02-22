@@ -25,6 +25,7 @@ nav{
 #intro{
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 h4{
     text-align: center;
@@ -36,7 +37,7 @@ h4{
     
 }
 img{
-    width: 170px;
+    width: 150px;
     border-radius: 30px;
 }
 #container-about{

@@ -1,144 +1,91 @@
 body{
-    background-color: black;
-    text-shadow: 9px white;
-    font-weight: bolder;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #031321;
+    color: greenyellow;
+    width: auto;
     text-align: center;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    position:relative;
-    top:0;
-    border-radius: 5px;
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(124, 207, 116);
-    margin-left: 0px;
-}
-div{
-    padding-top: 10px;
-    margin-bottom: 0px;
-}
-a:hover{
-    padding: 7px 5px;
-    animation: anchMove 1s infinite;
-}
-#container-home{
-    display: block;
-    padding: 10px;
-    background-image:linear-gradient(to right,  #853d5c, #79CBCA ,#77A1D3) ;
-    border-radius: 5px;
-}
-#intro{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-h4{
-    text-align: center;
-}
+    border: 1px solid greenyellow;
+    line-height: 30px;
 
-#personal-info{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    
-}
-#avatar{
-    width: 130px;
-    border-radius: 60px;
-    justify-content: flex-end;
-}
-#container-about{
-    height: 400px;
-    background-image:linear-gradient(to right, #77A1D3, #79CBCA, #853d5c) ;
-    border-radius: 5px;
-}
-#about{
-    text-align: center;
-    line-height: 40px;
-}
-#education{
-    text-align: center;
 }
 h1{
-    font-size: 20px;
-    color: black;
-    text-shadow: 10px black;
-}
-h2{
-    font-size: 19px;
-    color: #de0707;
-}
-li{
-    list-style: none;
-    margin-left: 10px;
-    font-size: 13px;
-}
-#certifications{
-    text-align: center;
-    line-height: 50px;
-    background-image:linear-gradient(to right, #853d5c ,#79CBCA, #77A1D3) ;
-    border-radius: 5px;
-}
-#skills{
-    text-align: center;
-    line-height: 30px;
-    height: 320px;
-    background-image:linear-gradient(to right, #77A1D3, #79CBCA, #853d5c) ;
-    border-radius: 5px;
-}
-#projects{
-    text-align: center;
-    height: 300px;
-    line-height: 40px;
-    background-image:linear-gradient(to right, #853d5c, #79CBCA ,#77A1D3) ;
-    border-radius: 5px;
-}
-#contact{
-    text-align: center;
-    line-height: 30px;
-    height: 200px;
-    background-image:linear-gradient(to right,  #77A1D3 ,#79CBCA, #77A1D3, #853d5c) ;
-    border-radius: 5px;
-}
-span{
-    color: rgb(139, 5, 5);
+    font-size: 35px;
+
 }
 a{
     text-decoration: none;
-    color:blue;
-    text-shadow: 10px black;
+    color: #2196f3;
+    padding: 10px;
 }
-.block{
-    position: relative;
-    margin: 10% auto 0;
-    width: 70%;
-    height: 110%;
-    background: linear-gradient(0deg, black ,rgb(44, 43, 43))
+a:hover{
+    text-shadow: 1px 1px 10px greenyellow;
+    color: greenyellow;
+    padding: 10px;
+    text-decoration: overline;
 }
-.glow::before , .glow::after{
-    content: '';
-    position: absolute;
-    left: -2px;
-    top: -2px;
-    background: linear-gradient(45deg ,#e6fb04 ,#ff6600 ,
-     #00ff66, #00ffff, #ff00ff 
-    ,#ff0099, #6e0dd0 , #ff3300 , #099fff);
-    background-size: 400%;
-    width: calc(100% + 5px);
-    height: calc(100% + 5px);
-    z-index: -1;
-    animation: myAnimation 20s infinite;
+img:hover{
+    text-shadow: 0px 0px 20px greenyellow;
+}
+li{
+    color: #e3c13b;
+    text-decoration: none;
+    list-style:none;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+#container-home{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+#container-home:hover{
+    box-shadow: 0px 0px 10px greenyellow;
+    border-radius: 10px;
+}
+#container-about{
+    padding: 10px;
+}
+#container-about:hover{
+    box-shadow: 0px 0px 10px greenyellow;
+    border-radius: 10px;
+}
+#certifications{
+    padding: 10px;
+}
+#certifications:hover{
+    box-shadow: 0px 0px 10px greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+#skills{
+    padding: 10px;
+}
+#skills:hover{
+    box-shadow: 0px 0px 10px greenyellow;
+    border-radius: 10px;
+}
+#projects{
+    padding: 10px;
+}
+#projects:hover{
+    box-shadow: 0px 0px 10px greenyellow;
+    border-radius: 10px;
+}
+#contact{
+    padding: 10px;
+}
+#contact:hover{
+    box-shadow: 0px 0px 10px greenyellow;
+    border-radius: 10px;
+}
 
-} 
-@keyframes myAnimation {
-    0% {background-position: 0 0 ;}
-    50% {background-position: 400% 0 ;}
-    100% {background-position: 0 0 ;}  
+img{
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 20px;
 }
-.glow::after{
-    filter: blur(4px);
+div{
+    margin: 5px;
 }

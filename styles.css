@@ -17,13 +17,15 @@ button {
     padding: 18px;
     background: rgb(14, 235, 150);
     color: #031321;
-    border: grey 1px 1px;
+    
     font-weight: bolder;
     border-radius: 20px;
+    box-shadow: 5px 3px 10px rgb(14, 235, 150);
 }
 button:active{
     background-color: #031321;
     color: rgb(14, 235, 150);
+    box-shadow: 5px 5px 3px rgb(14, 235, 150);
 }
 a{
     text-decoration: none;

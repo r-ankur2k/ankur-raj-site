@@ -12,6 +12,19 @@ h1{
     font-size: 35px;
 
 }
+button {
+    width: 110px;
+    padding: 18px;
+    background: rgb(14, 235, 150);
+    color: #031321;
+    border: grey 1px 1px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+button:active{
+    background-color: #031321;
+    color: rgb(14, 235, 150);
+}
 a{
     text-decoration: none;
     color: #58a1f5;
@@ -29,63 +42,71 @@ li{
     text-decoration: none;
     list-style:none;
     line-height: 40px;
-    text-align:start;
-    font-size: 15px;
+    text-align:center;
+    font-size: 20px;
+}
+#home-text p{
+    font-size: 20px;
 }
 #nav{
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
-#container-home{
-    display: flex;
-    justify-content: space-around;
+#container-home{  
     width: 400px;
     margin: 0 auto;
 }
-#container-home:active{
-    box-shadow: 0px 0px 10px greenyellow;
-    border-radius: 10px;
+#wel-text{
+    line-height: 100px;
 }
+
+#container-home h2 , #container-home p{
+    font-size: 30px;
+    line-height: 50px;
+}
+
 #container-about{
     padding: 10px;
 }
-#container-about:active{
-    box-shadow: 0px 0px 10px greenyellow;
-    border-radius: 10px;
-}
+
 #certifications{
     padding: 10px;
 }
-#certifications:active{
-    box-shadow: 0px 0px 10px greenyellow;
-    border-radius: 10px;
-    padding: 10px;
-}
+
 #certifications li, #skills li ,#projects li{
-    list-style: circle;
+    list-style: none;
 }
 #skills{
     padding: 10px;
 }
-#skills:active{
-    box-shadow: 0px 0px 10px greenyellow;
-    border-radius: 10px;
+#skills li{
+    font-size: 20px;
 }
+#projects li{
+    font-size: 25px;
+    line-height: 50px;
+}
+#certifications li{
+    font-size: 25px;
+}
+#certifications li span{
+    font-size: 20px;
+}
+#contact li {
+    font-size: 25px;
+}
+
+
+
 #projects{
     padding: 10px;
 }
-#projects:active{
-    box-shadow: 0px 0px 10px greenyellow;
-    border-radius: 10px;
-}
+
 #contact{
     padding: 10px;
 }
-#contact:active{
-    box-shadow: 0px 0px 10px greenyellow;
-    border-radius: 10px;
-}
+
 span{
     color: rgb(253, 53, 53);
     font-weight: bolder;

@@ -1,5 +1,5 @@
 
-var homeSection = document.getElementById("home-btn");
+var experienceSection = document.getElementById("exp-btn");
 var educationSection = document.getElementById("edu-btn");
 var certificateSection = document.getElementById("cert-btn");
 var skillsSection = document.getElementById("skills-btn");
@@ -8,17 +8,14 @@ var contactSection = document.getElementById("cont-btn");
 var displaySections = document.getElementById("visible-html");
 
 
-homeSection.addEventListener("click" , function(){
-    displaySections.innerHTML = `<div id="container-home">
-    <div id="home-text">
-        <h2>Hello !</h2>
-        <p>I'm Ankur Raj<br>
-            Aspiring to be <br><span>Web Developer</span></p>
-    </div>
-    <div>
-        <a href="https://www.instagram.com/ankur29feb" target="_blank"></a>
-        <img id="avatar" src="images/ank-avatar.png" alt="">
-    </div>
+experienceSection.addEventListener("click" , function(){
+    displaySections.innerHTML = `<div id="certifications">
+    <h1>Work <span>Experience</span></h1>
+    <li>Associate Software Enginner 
+    <br><span>Accenture</span>
+    <br>Oct-2022 - Present
+    <br>7 months</li>
+    
 </div>`
 });
 

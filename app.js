@@ -95,6 +95,7 @@ contactSection.addEventListener("click" , function(){
     <li>Instagram - <a href="https://www.instagram.com/ankur29feb" target="_blank">@ankur29feb</a></li>
     <li>Email - <a href="mailto:r.ankur2k@gmail.com">r.ankur2k@gmail.com</a></li>
     <li>Github - <a href="https://github.com/r-ankur2k/ankur-raj-site" target="_blank">r-ankur2k</a></li>
+    <li>LinkedIn - <a href="https://www.linkedin.com/in/ankur28feb/" target="_blank">ankur28feb</a></li>
     </div>
     </div>`
 });

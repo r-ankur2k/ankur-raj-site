@@ -37,6 +37,7 @@ educationSection.addEventListener("click" , function(){
     <div id="education">
         <h2>BBA</h2>
         <li>Narula Institute of Technology</li>
+        <li>8.9 CGPA</li>
         <h2>Intermediate</h2>
         <li>Guru Vasisth vidyayan</li>
         <li>59.4%</li>

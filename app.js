@@ -6,7 +6,16 @@ var skillsSection = document.getElementById("skills-btn");
 var projectsSection = document.getElementById("proj-btn");
 var contactSection = document.getElementById("cont-btn");
 var displaySections = document.getElementById("visible-html");
+var navBar = document.getElementById("nav-section")
+var exploreSection = document.getElementById('hidden-element')
+var exploreBtn = document.getElementById('explore-btn')
 
+
+exploreBtn.addEventListener('click',function(){
+    navBar.style.display = 'block'
+    exploreSection.style.display = "none"
+    displaySections.style.display = 'block'
+});
 
 experienceSection.addEventListener("click" , function(){
     displaySections.innerHTML = `<div id="certifications">
@@ -19,6 +28,7 @@ experienceSection.addEventListener("click" , function(){
 </div>`
 });
 
+
 educationSection.addEventListener("click" , function(){
     displaySections.innerHTML = `<div id="container-about">
     <div id="about">
@@ -27,7 +37,6 @@ educationSection.addEventListener("click" , function(){
     <div id="education">
         <h2>BBA</h2>
         <li>Narula Institute of Technology</li>
-        <li>8.9 CGPA</li>
         <h2>Intermediate</h2>
         <li>Guru Vasisth vidyayan</li>
         <li>59.4%</li>

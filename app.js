@@ -6,30 +6,30 @@ var skillsSection = document.getElementById("skills-btn");
 var projectsSection = document.getElementById("proj-btn");
 var contactSection = document.getElementById("cont-btn");
 var displaySections = document.getElementById("visible-html");
-var navBar = document.getElementById("nav-section")
-var exploreSection = document.getElementById('hidden-element')
-var exploreBtn = document.getElementById('explore-btn')
+var navBar = document.getElementById("nav-section");
+var exploreSection = document.getElementById('hidden-element');
+var exploreBtn = document.getElementById('explore-btn');
 
 
-exploreBtn.addEventListener('click',function(){
+exploreBtn.addEventListener('click', function () {
     navBar.style.display = 'block'
     exploreSection.style.display = "none"
     displaySections.style.display = 'block'
 });
 
-experienceSection.addEventListener("click" , function(){
+experienceSection.addEventListener("click", function () {
     displaySections.innerHTML = `<div id="certifications">
     <h1>Work <span>Experience</span></h1>
     <li>Associate Software Enginner 
     <br><span>Accenture</span>
     <br>Oct-2022 - Present
-    <br>7 months</li>
+    <br>8 months</li>
     
 </div>`
 });
 
 
-educationSection.addEventListener("click" , function(){
+educationSection.addEventListener("click", function () {
     displaySections.innerHTML = `<div id="container-about">
     <div id="about">
         <h1>Education<span> Section</span></h1>
@@ -48,7 +48,7 @@ educationSection.addEventListener("click" , function(){
 </div>`
 });
 
-certificateSection.addEventListener("click" , function(){
+certificateSection.addEventListener("click", function () {
     displaySections.innerHTML = `<div id="certifications">
     <h1>Certificates <span>Section</span></h1>
     <li>Project Management Specialization <br> <span>Google</span></li>
@@ -59,7 +59,7 @@ certificateSection.addEventListener("click" , function(){
 </div>`
 });
 
-skillsSection.addEventListener("click" , function(){
+skillsSection.addEventListener("click", function () {
     displaySections.innerHTML = `<div id="skills">
     <h1>Skills <span>Acquired</span></h1>
     <div class="skill-cont">
@@ -86,7 +86,7 @@ skillsSection.addEventListener("click" , function(){
     </div>`
 });
 
-projectsSection.addEventListener("click" , function(){
+projectsSection.addEventListener("click", function () {
     displaySections.innerHTML = `<div id="projects">
     <h1>Projects <span>Section</span></h1>
     <li><a href="https://ank-google-clone.netlify.app/" target="_blank">Google Clone Homepage</a></li>
@@ -98,7 +98,7 @@ projectsSection.addEventListener("click" , function(){
     <li><a href="https://github.com/r-ankur2k" target="_blank">More...</a></li>
 </div>`
 });
-contactSection.addEventListener("click" , function(){
+contactSection.addEventListener("click", function () {
     displaySections.innerHTML = `<div id="contact">
     <h1>Contact <span>ME</span></h1>
     <li>Phone - <a href="callto:+919060828354" target="_blank">+919060828354</a></li>

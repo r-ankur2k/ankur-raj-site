@@ -1,46 +1,336 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title>ANKUR RAJ</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKUR RAJ - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-    <div id="intro">
-        <h1 id="name"><a href="https://www.instagram.com/ankur29feb" target="_blank">
-                ANK<span>UR ↗</span></a></h1>
-    </div>
-    <section id="nav-section">
-        <div id="nav1">
-            <button id="edu-btn">Education</button>
-            <button id="skills-btn">Skills</button>
-            <button id="cert-btn">Certificates</button>
-        </div>
-        <div id="nav2">
-            <button id="proj-btn">Projects</button>
-            <button id="exp-btn">Work Exp.</button>
-            <button id="cont-btn">Contact</button>
-        </div>
-    </section>
-    <section id="visible-html">
-        <div id="container-home">
-            <div id="home-text">
-                <h2>Hello !</h2>
-                <p>I'm Ankur Raj<br>
-                    Aspiring to be <br><span>Web Developer</span></p>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AR</span>
             </div>
-            <div>
-                <a href="https://www.instagram.com/ankur29feb" target="_blank"></a>
-                <img id="avatar" src="images/ank-avatar.png" alt="">
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">ANKUR RAJ</h1>
+                    <h2 class="hero-title">[Your Professional Title]</h2>
+                    <p class="hero-tagline">[Your Professional Tagline]</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn--primary hero-btn">Get In Touch</a>
+                        <a href="#projects" class="btn btn--outline hero-btn">View Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
     </section>
-    <div id="hidden-element">
-        <h1>Click Explore<br>To See The<br><span>Resume</span></h1>
-        <button id="explore-btn">Explore</button>
-    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and passion</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        [Brief description about yourself, your background, and what drives you professionally. 
+                        Share your journey in technology, your passion for coding, and what makes you unique 
+                        in your field. This is where you can highlight your personality and professional mindset.]
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-number">[X]+</h3>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">[X]+</h3>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">[X]+</h3>
+                            <p class="stat-label">Technologies Mastered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="java">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3 class="skill-name">Java</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85"></div>
+                        <span class="progress-text">85%</span>
+                    </div>
+                    <p class="skill-category">Programming</p>
+                </div>
+
+                <div class="skill-card" data-skill="tosca">
+                    <div class="skill-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3 class="skill-name">Tosca</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="80"></div>
+                        <span class="progress-text">80%</span>
+                    </div>
+                    <p class="skill-category">Testing</p>
+                </div>
+
+                <div class="skill-card" data-skill="sql">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">SQL</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="75"></div>
+                        <span class="progress-text">75%</span>
+                    </div>
+                    <p class="skill-category">Database</p>
+                </div>
+
+                <div class="skill-card" data-skill="python">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3 class="skill-name">Python</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="70"></div>
+                        <span class="progress-text">70%</span>
+                    </div>
+                    <p class="skill-category">Programming</p>
+                </div>
+
+                <div class="skill-card" data-skill="selenium">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="skill-name">Selenium</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85"></div>
+                        <span class="progress-text">85%</span>
+                    </div>
+                    <p class="skill-category">Automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">My professional journey and achievements</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">[Your Position]</h3>
+                        <h4 class="timeline-company">[Company Name]</h4>
+                        <p class="timeline-duration">[Start Date] - [End Date/Present]</p>
+                        <p class="timeline-description">
+                            [Brief description of your role and achievements. Highlight key responsibilities, 
+                            technologies used, and impact made during this position.]
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">[Previous Position]</h3>
+                        <h4 class="timeline-company">[Previous Company]</h4>
+                        <p class="timeline-duration">[Start Date] - [End Date]</p>
+                        <p class="timeline-description">
+                            [Brief description of your role and achievements. Focus on growth, learning 
+                            experiences, and contributions to the organization.]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work and contributions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">[Project Name 1]</h3>
+                        <div class="project-links">
+                            <a href="[Project Link]" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">[Brief project description highlighting key features and your role]</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">[Project Name 2]</h3>
+                        <div class="project-links">
+                            <a href="[Project Link]" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">[Brief project description highlighting key features and your role]</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Selenium</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">[Project Name 3]</h3>
+                        <div class="project-links">
+                            <a href="[Project Link]" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">[Brief project description highlighting key features and your role]</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Tosca</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss opportunities and collaborate</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>[your.email@example.com]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>[Your Phone Number]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>[Your Location]</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="[Your LinkedIn URL]" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="[Your GitHub URL]" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:[your.email@example.com]" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 ANKUR RAJ. All rights reserved.</p>
+                <p>Built with passion and dedication</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
 </body>
-
 </html>
